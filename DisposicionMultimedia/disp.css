@@ -1,0 +1,16 @@
+*{
+
+    margin: 0;
+    padding:0;
+
+}
+
+img{
+    width: 300px
+
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
