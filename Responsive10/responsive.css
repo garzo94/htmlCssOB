@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    
+}
+.barraIzquierda{
+    display:flex;
+    flex-direction: column;
+    background-color: brown;
+    min-height: 20rem;
+    padding: 2rem;
+    justify-content: space-around;
+    
+}
+
+.principalDerecho{  
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+   
+   background-color: bisque;
+   padding: 3rem;
+   justify-content: center;
+   align-items: center;
+}
+
+@media screen and (max-width: 640px) {
+   body{
+    display:flex;
+    flex-direction: column-reverse;
+
+   }
+
+   .barraIzquierda{
+    display: flex;
+    flex-direction: row;
+    min-height: 3rem;
+    
+   }
+
+   .principalDerecho{
+    display: flex;
+    flex-direction: row;
+    min-height: 5rem;
+   }
+
+
+   
+}
+
